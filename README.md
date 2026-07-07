@@ -57,12 +57,12 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlparslanBurhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&rank_icon=github">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AlparslanBurhan&show_icons=true&theme=default&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=AlparslanBurhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&rank_icon=github">
+    <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AlparslanBurhan&show_icons=true&theme=default&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlparslanBurhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&hide=mathematica,batchfile&langs_count=8">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlparslanBurhan&layout=compact&theme=default&hide_border=true&hide=mathematica,batchfile&langs_count=8" alt="Top Languages"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlparslanBurhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&hide=mathematica,batchfile&langs_count=8">
+    <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlparslanBurhan&layout=compact&theme=default&hide_border=true&hide=mathematica,batchfile&langs_count=8" alt="Top Languages"/>
   </picture>
 </div>
 
@@ -84,11 +84,11 @@
 
 <br/>
 
-<!-- ======================= TROPHIES ======================= -->
+<!-- ======================= PROFILE SUMMARY ======================= -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=AlparslanBurhan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8">
-    <img src="https://github-profile-trophy.vercel.app/?username=AlparslanBurhan&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AlparslanBurhan&theme=tokyonight">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AlparslanBurhan&theme=default" alt="Profile Summary" width="100%"/>
   </picture>
 </div>
 
@@ -100,38 +100,38 @@
 <div align="center">
   <a href="https://github.com/AlparslanBurhan/CamBridge">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=CamBridge&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=CamBridge&theme=default&hide_border=true" alt="CamBridge"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=CamBridge&theme=tokyonight&hide_border=true&bg_color=00000000">
+      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=CamBridge&theme=default&hide_border=true" alt="CamBridge"/>
     </picture>
   </a>
   <a href="https://github.com/AlparslanBurhan/Sonar-EQ-Changer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=default&hide_border=true" alt="Sonar-EQ-Changer"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=tokyonight&hide_border=true&bg_color=00000000">
+      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=default&hide_border=true" alt="Sonar-EQ-Changer"/>
     </picture>
   </a>
   <a href="https://github.com/AlparslanBurhan/EFT-Loot-Tracker">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=EFT-Loot-Tracker&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=EFT-Loot-Tracker&theme=default&hide_border=true" alt="EFT-Loot-Tracker"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=EFT-Loot-Tracker&theme=tokyonight&hide_border=true&bg_color=00000000">
+      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=EFT-Loot-Tracker&theme=default&hide_border=true" alt="EFT-Loot-Tracker"/>
     </picture>
   </a>
   <a href="https://github.com/AlparslanBurhan/Smart-Warehouse-System">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=Smart-Warehouse-System&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=Smart-Warehouse-System&theme=default&hide_border=true" alt="Smart-Warehouse-System"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Smart-Warehouse-System&theme=tokyonight&hide_border=true&bg_color=00000000">
+      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Smart-Warehouse-System&theme=default&hide_border=true" alt="Smart-Warehouse-System"/>
     </picture>
   </a>
   <a href="https://github.com/AlparslanBurhan/small">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=small&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=small&theme=default&hide_border=true" alt="small"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=small&theme=tokyonight&hide_border=true&bg_color=00000000">
+      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=small&theme=default&hide_border=true" alt="small"/>
     </picture>
   </a>
   <a href="https://github.com/AlparslanBurhan/Sword_of_Revenge">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sword_of_Revenge&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sword_of_Revenge&theme=default&hide_border=true" alt="Sword_of_Revenge"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sword_of_Revenge&theme=tokyonight&hide_border=true&bg_color=00000000">
+      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sword_of_Revenge&theme=default&hide_border=true" alt="Sword_of_Revenge"/>
     </picture>
   </a>
 </div>
