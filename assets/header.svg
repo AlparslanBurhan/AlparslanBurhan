@@ -1,0 +1,76 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Alparslan Burhan — Full-Stack and Native Windows Developer">
+  <style>
+    .title {
+      font: 800 54px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif;
+      fill: #ffffff;
+      letter-spacing: 1px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease-out 0.25s forwards;
+    }
+    .subtitle {
+      font: 600 17px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif;
+      fill: rgba(255, 255, 255, 0.88);
+      letter-spacing: 5px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease-out 0.85s forwards;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .w1 { animation: drift 16s linear infinite; }
+    .w2 { animation: driftR 11s linear infinite; }
+    .w3 { animation: drift 7s linear infinite; }
+    @keyframes drift  { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    @keyframes driftR { from { transform: translateX(-600px); } to { transform: translateX(0); } }
+    .orb { animation: float 6s ease-in-out infinite; }
+    .orb2 { animation: float 8s ease-in-out 1.5s infinite; }
+    .orb3 { animation: float 7s ease-in-out 3s infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-14px); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a192f">
+        <animate attributeName="stop-color" values="#0a192f;#0b2a5b;#0a192f" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.55" stop-color="#0072ff">
+        <animate attributeName="stop-color" values="#0072ff;#2496ff;#0072ff" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#00e0d0;#00c6ff" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <clipPath id="round">
+      <rect width="1200" height="240" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="240" fill="url(#bg)"/>
+
+    <!-- floating orbs -->
+    <g opacity="0.5">
+      <circle class="orb"  cx="150"  cy="70"  r="5"  fill="#ffffff" opacity="0.35"/>
+      <circle class="orb2" cx="1050" cy="55"  r="7"  fill="#ffffff" opacity="0.28"/>
+      <circle class="orb3" cx="920"  cy="120" r="4"  fill="#ffffff" opacity="0.4"/>
+      <circle class="orb2" cx="280"  cy="140" r="3"  fill="#ffffff" opacity="0.45"/>
+      <circle class="orb"  cx="620"  cy="45"  r="3.5" fill="#ffffff" opacity="0.3"/>
+    </g>
+
+    <!-- waves (period 600px, drawn 1800px wide for seamless loop) -->
+    <path class="w3" fill="#ffffff" opacity="0.10"
+      d="M0 172 Q150 144 300 172 T600 172 T900 172 T1200 172 T1500 172 T1800 172 V241 H0 Z"/>
+    <path class="w2" fill="#ffffff" opacity="0.14"
+      d="M0 188 Q150 162 300 188 T600 188 T900 188 T1200 188 T1500 188 T1800 188 V241 H0 Z"/>
+    <path class="w1" fill="#ffffff" opacity="0.22"
+      d="M0 204 Q150 182 300 204 T600 204 T900 204 T1200 204 T1500 204 T1800 204 V241 H0 Z"/>
+
+    <!-- text -->
+    <text class="title" x="600" y="112" text-anchor="middle">Alparslan Burhan</text>
+    <text class="subtitle" x="600" y="152" text-anchor="middle">FULL-STACK &amp; NATIVE WINDOWS DEVELOPER</text>
+  </g>
+</svg>

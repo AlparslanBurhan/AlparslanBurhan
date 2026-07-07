@@ -1,6 +1,6 @@
 <!-- ======================= HEADER ======================= -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=220&section=header&text=Alparslan%20Burhan&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20%26%20Native%20Windows%20Developer&descAlignY=58&descSize=20" width="100%" alt="header"/>
+  <img src="assets/header.svg" width="100%" alt="header"/>
 </div>
 
 <div align="center">
@@ -68,8 +68,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AlparslanBurhan&theme=tokyonight&hide_border=true&background=00000000">
-    <img src="https://streak-stats.demolab.com?user=AlparslanBurhan&theme=default&hide_border=true" alt="GitHub Streak"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AlparslanBurhan&theme=tokyonight&utcOffset=3">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AlparslanBurhan&theme=default&utcOffset=3" alt="Commit Time Distribution"/>
   </picture>
 </div>
 
@@ -143,5 +143,5 @@
 
   ### 💬 *"Code is like humor. When you have to explain it, it's bad."*
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=130&section=footer" width="100%" alt="footer"/>
+  <img src="assets/footer.svg" width="100%" alt="footer"/>
 </div>

@@ -1,0 +1,26 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer wave">
+  <style>
+    .w1 { animation: drift 14s linear infinite; }
+    .w2 { animation: driftR 9s linear infinite; }
+    @keyframes drift  { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    @keyframes driftR { from { transform: translateX(-600px); } to { transform: translateX(0); } }
+  </style>
+
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0072ff">
+        <animate attributeName="stop-color" values="#0072ff;#2496ff;#0072ff" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#00e0d0;#00c6ff" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- back wave layer (period 600px, drawn 1800px wide for seamless loop) -->
+  <path class="w2" fill="url(#fbg)" opacity="0.45"
+    d="M0 42 Q150 18 300 42 T600 42 T900 42 T1200 42 T1500 42 T1800 42 V111 H0 Z"/>
+  <!-- front wave layer -->
+  <path class="w1" fill="url(#fbg)"
+    d="M0 58 Q150 34 300 58 T600 58 T900 58 T1200 58 T1500 58 T1800 58 V111 H0 Z"/>
+</svg>
