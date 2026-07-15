@@ -68,8 +68,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AlparslanBurhan&theme=tokyonight&utcOffset=3">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AlparslanBurhan&theme=default&utcOffset=3" alt="Commit Time Distribution"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AlparslanBurhan&theme=tokyonight&hide_border=true&background=00000000">
+    <img src="https://streak-stats.demolab.com?user=AlparslanBurhan&theme=default&hide_border=true" alt="GitHub Streak"/>
   </picture>
 </div>
 
@@ -79,16 +79,6 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AlparslanBurhan&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58a6ff&line=0072ff&point=00c6ff&area=true&area_color=0072ff">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlparslanBurhan&theme=minimal&hide_border=true&color=0072ff&line=0072ff&point=00c6ff&area=true&area_color=0072ff" alt="Contribution Graph" width="100%"/>
-  </picture>
-</div>
-
-<br/>
-
-<!-- ======================= PROFILE SUMMARY ======================= -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AlparslanBurhan&theme=tokyonight">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AlparslanBurhan&theme=default" alt="Profile Summary" width="100%"/>
   </picture>
 </div>
 
