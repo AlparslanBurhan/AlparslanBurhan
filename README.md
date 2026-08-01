@@ -89,13 +89,7 @@
 
 
 
-<div align="center"><!--  
-  <a href="https://github.com/AlparslanBurhan/CamBridge">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=CamBridge&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=CamBridge&theme=default&hide_border=true" alt="CamBridge"/>
-    </picture>
-  </a>-->
+<div align="center">
   <a href="https://github.com/AlparslanBurhan/Sonar-EQ-Changer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=tokyonight&hide_border=true&bg_color=00000000">
