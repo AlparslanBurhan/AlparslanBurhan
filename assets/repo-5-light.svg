@@ -21,13 +21,13 @@
   <text class="f" x="48" y="52" font-size="16" font-weight="600" fill="#0969da">Smart-Warehouse-System</text>
 </g>
 <g class="in" style="animation-delay:.16s">
-<text class="f" x="24" y="88" font-size="12.5" fill="#59636e">📦 Multi-tenant smart warehouse management system (WMS) — .NET 9 API</text>
-<text class="f" x="24" y="107" font-size="12.5" fill="#59636e">+ React 19 / TypeScript UI</text>
+<text class="f" x="24" y="88" font-size="12.5" fill="#59636e">📦 Multi-tenant smart warehouse management system (WMS) —</text>
+<text class="f" x="24" y="107" font-size="12.5" fill="#59636e">.NET 9 API + React 19 / TypeScript UI</text>
 </g>
 <g class="in" style="animation-delay:.24s">
 <circle cx="30" cy="126" r="6" fill="#3178c6"/>
 <text class="f" x="43" y="130" font-size="12.5" font-weight="500" fill="#32383f">TypeScript</text>
-<g transform="translate(116.9,119) scale(.85)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#59636e"/></g>
-<text class="f" x="135.9" y="130" font-size="12.5" fill="#59636e">1</text>
+<g transform="translate(123.3,119) scale(.85)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#59636e"/></g>
+<text class="f" x="142.3" y="130" font-size="12.5" fill="#59636e">1</text>
 </g>
 </svg>

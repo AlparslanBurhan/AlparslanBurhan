@@ -21,13 +21,13 @@
   <text class="f" x="48" y="52" font-size="16" font-weight="600" fill="#0969da">Sonar-EQ-Changer</text>
 </g>
 <g class="in" style="animation-delay:.16s">
-<text class="f" x="24" y="88" font-size="12.5" fill="#59636e">🎧 WPF/.NET 10 app that auto-switches SteelSeries Sonar EQ presets</text>
-<text class="f" x="24" y="107" font-size="12.5" fill="#59636e">based on the game you&apos;re playing</text>
+<text class="f" x="24" y="88" font-size="12.5" fill="#59636e">🎧 WPF/.NET 10 app that auto-switches SteelSeries Sonar EQ</text>
+<text class="f" x="24" y="107" font-size="12.5" fill="#59636e">presets based on the game you&apos;re playing</text>
 </g>
 <g class="in" style="animation-delay:.24s">
 <circle cx="30" cy="126" r="6" fill="#178600"/>
 <text class="f" x="43" y="130" font-size="12.5" font-weight="500" fill="#32383f">C#</text>
-<g transform="translate(70.9,119) scale(.85)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#59636e"/></g>
-<text class="f" x="89.9" y="130" font-size="12.5" fill="#59636e">4</text>
+<g transform="translate(73.3,119) scale(.85)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#59636e"/></g>
+<text class="f" x="92.3" y="130" font-size="12.5" fill="#59636e">4</text>
 </g>
 </svg>

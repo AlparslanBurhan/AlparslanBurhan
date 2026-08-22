@@ -42,31 +42,31 @@
 <g class="in" style="animation-delay:0.30s">
   <circle cx="30" cy="110" r="6" fill="#178600"/>
   <text class="f" x="44" y="114" font-size="13.5" font-weight="600" fill="#c9d1d9">C#</text>
-  <text class="f" x="68.8" y="114" font-size="12.5" fill="#8b949e">84.4%</text>
+  <text class="f" x="71.4" y="114" font-size="12.5" fill="#8b949e">84.4%</text>
 </g>
 <g class="in" style="animation-delay:0.36s">
   <circle cx="322" cy="110" r="6" fill="#3178c6"/>
   <text class="f" x="336" y="114" font-size="13.5" font-weight="600" fill="#c9d1d9">TypeScript</text>
-  <text class="f" x="412.8" y="114" font-size="12.5" fill="#8b949e">10.5%</text>
+  <text class="f" x="419.5" y="114" font-size="12.5" fill="#8b949e">10.5%</text>
 </g>
 <g class="in" style="animation-delay:0.42s">
   <circle cx="614" cy="110" r="6" fill="#f1e05a"/>
   <text class="f" x="628" y="114" font-size="13.5" font-weight="600" fill="#c9d1d9">JavaScript</text>
-  <text class="f" x="704.8" y="114" font-size="12.5" fill="#8b949e">3.2%</text>
+  <text class="f" x="711.5" y="114" font-size="12.5" fill="#8b949e">3.2%</text>
 </g>
 <g class="in" style="animation-delay:0.48s">
   <circle cx="30" cy="140" r="6" fill="#c6538c"/>
   <text class="f" x="44" y="144" font-size="13.5" font-weight="600" fill="#c9d1d9">SCSS</text>
-  <text class="f" x="85.6" y="144" font-size="12.5" fill="#8b949e">0.8%</text>
+  <text class="f" x="90.9" y="144" font-size="12.5" fill="#8b949e">0.8%</text>
 </g>
 <g class="in" style="animation-delay:0.54s">
   <circle cx="322" cy="140" r="6" fill="#e34c26"/>
   <text class="f" x="336" y="144" font-size="13.5" font-weight="600" fill="#c9d1d9">HTML</text>
-  <text class="f" x="377.6" y="144" font-size="12.5" fill="#8b949e">0.5%</text>
+  <text class="f" x="382.9" y="144" font-size="12.5" fill="#8b949e">0.5%</text>
 </g>
 <g class="in" style="animation-delay:0.60s">
   <circle cx="614" cy="140" r="6" fill="#264b99"/>
   <text class="f" x="628" y="144" font-size="13.5" font-weight="600" fill="#c9d1d9">Inno Setup</text>
-  <text class="f" x="705.1" y="144" font-size="12.5" fill="#8b949e">0.3%</text>
+  <text class="f" x="711.8" y="144" font-size="12.5" fill="#8b949e">0.3%</text>
 </g>
 </svg>
