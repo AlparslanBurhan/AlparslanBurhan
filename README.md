@@ -72,6 +72,44 @@
 ## ⭐ Featured Projects
 
 <!-- PROJECTS:START -->
+<div align="center">
+  <a href="https://github.com/AlparslanBurhan/Sonar-EQ-Changer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repo-1-dark.svg">
+      <img width="49%" src="assets/repo-1-light.svg" alt="Sonar-EQ-Changer"/>
+    </picture>
+  </a>
+  <a href="https://github.com/AlparslanBurhan/EFT-Loot-Tracker">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repo-2-dark.svg">
+      <img width="49%" src="assets/repo-2-light.svg" alt="EFT-Loot-Tracker"/>
+    </picture>
+  </a>
+  <a href="https://github.com/AlparslanBurhan/TriPeaks">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repo-3-dark.svg">
+      <img width="49%" src="assets/repo-3-light.svg" alt="TriPeaks"/>
+    </picture>
+  </a>
+  <a href="https://github.com/AlparslanBurhan/LanBeam">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repo-4-dark.svg">
+      <img width="49%" src="assets/repo-4-light.svg" alt="LanBeam"/>
+    </picture>
+  </a>
+  <a href="https://github.com/AlparslanBurhan/Smart-Warehouse-System">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repo-5-dark.svg">
+      <img width="49%" src="assets/repo-5-light.svg" alt="Smart-Warehouse-System"/>
+    </picture>
+  </a>
+  <a href="https://github.com/AlparslanBurhan/Sword_of_Revenge">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repo-6-dark.svg">
+      <img width="49%" src="assets/repo-6-light.svg" alt="Sword_of_Revenge"/>
+    </picture>
+  </a>
+</div>
 <!-- PROJECTS:END -->
 
 <br/>

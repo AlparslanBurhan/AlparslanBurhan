@@ -1,0 +1,64 @@
+<svg width="900" height="214" viewBox="0 0 900 214" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Overview">
+<defs>
+  <linearGradient id="accsd" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#00c6ff"/><stop offset="1" stop-color="#58a6ff"/>
+  </linearGradient>
+  <clipPath id="clipsd"><rect width="900" height="214" rx="12"/></clipPath>
+</defs>
+<style>
+  .f{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif}
+  .in{animation:rise .55s cubic-bezier(.2,.7,.3,1) backwards}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.in{animation:none}}
+</style>
+<g clip-path="url(#clipsd)">
+  <rect width="900" height="214" fill="#0d1117"/>
+  <rect width="900" height="3" fill="url(#accsd)"/>
+</g>
+<rect x=".5" y=".5" width="899" height="213" rx="12" fill="none" stroke="#30363d"/>
+<text class="f in" x="24" y="34" font-size="13.5" font-weight="600" fill="#8b949e" letter-spacing="1.7">OVERVIEW</text>
+<g class="in" style="animation-delay:0.10s">
+  <text class="f" x="24" y="92" font-size="29" font-weight="700" fill="#e6edf3">98</text>
+  <text class="f" x="24" y="112" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">CONTRIBUTIONS</text>
+</g>
+<g class="in" style="animation-delay:0.15s">
+  <text class="f" x="172" y="92" font-size="29" font-weight="700" fill="#e6edf3">16</text>
+  <text class="f" x="172" y="112" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">STARS</text>
+</g>
+<g class="in" style="animation-delay:0.20s">
+  <text class="f" x="320" y="92" font-size="29" font-weight="700" fill="#e6edf3">83</text>
+  <text class="f" x="320" y="112" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">COMMITS</text>
+</g>
+<g class="in" style="animation-delay:0.25s">
+  <text class="f" x="468" y="92" font-size="29" font-weight="700" fill="#e6edf3">13</text>
+  <text class="f" x="468" y="112" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">REPOS</text>
+</g>
+<g class="in" style="animation-delay:0.30s">
+  <text class="f" x="24" y="164" font-size="29" font-weight="700" fill="#e6edf3">1</text>
+  <text class="f" x="24" y="184" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">PULL REQUESTS</text>
+</g>
+<g class="in" style="animation-delay:0.35s">
+  <text class="f" x="172" y="164" font-size="29" font-weight="700" fill="#e6edf3">0</text>
+  <text class="f" x="172" y="184" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">ISSUES</text>
+</g>
+<g class="in" style="animation-delay:0.40s">
+  <text class="f" x="320" y="164" font-size="29" font-weight="700" fill="#e6edf3">3</text>
+  <text class="f" x="320" y="184" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">FOLLOWERS</text>
+</g>
+<g class="in" style="animation-delay:0.45s">
+  <text class="f" x="468" y="164" font-size="29" font-weight="700" fill="#e6edf3">9</text>
+  <text class="f" x="468" y="184" font-size="11.5" font-weight="600" fill="#8b949e" letter-spacing=".5">LANGUAGES</text>
+</g>
+<line x1="636" y1="58" x2="636" y2="184" stroke="#30363d"/>
+<g class="in" style="animation-delay:.45s">
+  <circle cx="762" cy="118" r="52" fill="none" stroke="#21262d" stroke-width="9"/>
+  <circle cx="762" cy="118" r="52" fill="none" stroke="url(#accsd)" stroke-width="9" stroke-linecap="round"
+          stroke-dasharray="326.7" stroke-dashoffset="326.7" transform="rotate(-90 762 118)">
+    <animate attributeName="stroke-dashoffset" from="326.7" to="326.7" dur="1.1s" begin=".3s" fill="freeze"/>
+  </circle>
+  <text class="f" x="762" y="50" text-anchor="middle" font-size="11.5" font-weight="600" fill="#58a6ff" letter-spacing="1.2">CURRENT STREAK</text>
+  <text class="f" x="762" y="122" text-anchor="middle" font-size="34" font-weight="700" fill="#e6edf3">0</text>
+  <text class="f" x="762" y="142" text-anchor="middle" font-size="10.5" font-weight="600" fill="#8b949e" letter-spacing="1.2">DAYS</text>
+  <text class="f" x="762" y="198" text-anchor="middle" font-size="12" font-weight="600" fill="#8b949e">Longest: 3 days</text>
+</g>
+</svg>
