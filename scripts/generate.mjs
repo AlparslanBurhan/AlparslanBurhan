@@ -133,7 +133,7 @@ async function gql(query, variables) {
       console.warn('  GraphQL denemesi ' + attempt + ' başarısız: ' + err.message);
       const authFailed = /HTTP 401|HTTP 403|Bad credentials|requires authentication/i.test(err.message);
       if (authFailed && FALLBACK_TOKEN && TOKEN !== FALLBACK_TOKEN) {
-        console.warn('  ! Tercih edilen token reddedildi — GITHUB_TOKEN'a düşülüyor.');
+        console.warn('  ! Tercih edilen token reddedildi; fallback GITHUB_TOKEN kullanilacak.');
         console.warn('    Sayılar yalnızca public katkıları kapsayacak.');
         TOKEN = FALLBACK_TOKEN;
         continue;
