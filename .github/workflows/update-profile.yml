@@ -1,0 +1,51 @@
+name: Update profile cards
+
+on:
+  schedule:
+    # Her gün 03:17 UTC. Sabit dakika, GitHub'ın tam saat yığılmasından kaçınır.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, rebuild-profile]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate SVG cards
+        env:
+          # PROFILE_TOKEN yalnızca varsayılan GITHUB_TOKEN yetmezse gerekir.
+          # Boşsa otomatik olarak GITHUB_TOKEN'a düşer.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: node scripts/generate.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Değişiklik yok, commit atlanıyor."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Profil kartlarını güncelle"
+          git push

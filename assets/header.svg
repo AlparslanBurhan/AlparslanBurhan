@@ -4,15 +4,13 @@
       font: 800 54px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif;
       fill: #ffffff;
       letter-spacing: 1px;
-      opacity: 0;
-      animation: fadeUp 0.9s ease-out 0.25s forwards;
+      animation: fadeUp 0.9s ease-out 0.25s backwards;
     }
     .subtitle {
       font: 600 17px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif;
       fill: rgba(255, 255, 255, 0.88);
       letter-spacing: 5px;
-      opacity: 0;
-      animation: fadeUp 0.9s ease-out 0.85s forwards;
+      animation: fadeUp 0.9s ease-out 0.85s backwards;
     }
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(16px); }
@@ -29,6 +27,9 @@
     @keyframes float {
       0%, 100% { transform: translateY(0); }
       50%      { transform: translateY(-14px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .title, .subtitle, .w1, .w2, .w3, .orb, .orb2, .orb3 { animation: none; }
     }
   </style>
 

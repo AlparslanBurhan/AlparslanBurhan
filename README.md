@@ -1,21 +1,17 @@
 <!-- ======================= HEADER ======================= -->
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="header"/>
+  <img src="assets/header.svg" width="100%" alt="Alparslan Burhan — Full-Stack &amp; Native Windows Developer"/>
 </div>
 
 <div align="center">
-  <a href="https://github.com/AlparslanBurhan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0072FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Native+Windows+%26+C%2B%2B+Enthusiast;.NET+%E2%80%A2+TypeScript+%E2%80%A2+Kotlin;Building+tools+people+actually+use+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
-  </a>
+  <img src="assets/typing.svg" alt="Full-Stack Developer · Native Windows &amp; C++ Enthusiast"/>
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AlparslanBurhan&style=for-the-badge&color=0072ff" alt="Profile views"/>
   <a href="mailto:alparslanburhan@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img src="assets/badge-mail.svg" alt="Contact me by e-mail"/>
   </a>
+  <img src="https://komarev.com/ghpvc/?username=AlparslanBurhan&style=for-the-badge&color=0072ff" alt="Profile views"/>
 </div>
 
 <br/>
@@ -23,10 +19,10 @@
 <!-- ======================= ABOUT ======================= -->
 ## 🚀 About Me
 
-- 🔭 Currently building **[CamBridge](https://github.com/AlparslanBurhan/CamBridge)** — turns your Android phone into a Windows virtual webcam (native C++ · DirectShow · Kotlin)
-- 💻 I build **native Windows apps** (Win32 / WPF / .NET), **full-stack web apps** (Next.js / React + .NET APIs) and **games** (Unity)
-- 🎮 I love making tools for gamers — [Sonar-EQ-Changer](https://github.com/AlparslanBurhan/Sonar-EQ-Changer), [EFT-Loot-Tracker](https://github.com/AlparslanBurhan/EFT-Loot-Tracker)
-- 🌱 Deep-diving into **C++ systems programming**, low-latency streaming and virtual device drivers
+- 💻 I build **native Windows apps** (Win32 · WPF · .NET), **full-stack web apps** (Next.js / React + .NET APIs) and **games** (Unity)
+- 🎮 I like making tools for gamers and power users — [Sonar-EQ-Changer](https://github.com/AlparslanBurhan/Sonar-EQ-Changer), [EFT-Loot-Tracker](https://github.com/AlparslanBurhan/EFT-Loot-Tracker), [FanPulse](https://github.com/AlparslanBurhan/FanPulse)
+- 📡 [LanBeam](https://github.com/AlparslanBurhan/LanBeam) — fast, encrypted LAN file transfer for Windows and macOS
+- 🌱 Into **C++ systems programming**, low-latency streaming and device-level Windows APIs
 - 📫 Reach me at **alparslanburhan@gmail.com**
 
 <br/>
@@ -38,15 +34,15 @@
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=cs,cpp,ts,js,kotlin,python,html,css&perline=8" alt="Languages"/>
+<img src="assets/tech-languages.svg" alt="C#, C++, TypeScript, JavaScript, Kotlin, Python, HTML, CSS"/>
 
-**Frameworks & Libraries**
+**Frameworks &amp; Libraries**
 
-<img src="https://skillicons.dev/icons?i=dotnet,react,nextjs,tailwind,nodejs,unity&perline=8" alt="Frameworks"/>
+<img src="assets/tech-frameworks.svg" alt=".NET, React, Next.js, Tailwind, Node.js, Unity"/>
 
-**Tools & Platforms**
+**Tools &amp; Platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,visualstudio,vscode,androidstudio,cmake&perline=8" alt="Tools"/>
+<img src="assets/tech-tools.svg" alt="Git, GitHub, Visual Studio, VS Code, Android Studio, CMake"/>
 
 </div>
 
@@ -57,28 +53,16 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=AlparslanBurhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&rank_icon=github">
-    <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AlparslanBurhan&show_icons=true&theme=default&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img width="100%" src="assets/stats-light.svg" alt="GitHub overview"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlparslanBurhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&hide=mathematica,batchfile&langs_count=8">
-    <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlparslanBurhan&layout=compact&theme=default&hide_border=true&hide=mathematica,batchfile&langs_count=8" alt="Top Languages"/>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+    <img width="100%" src="assets/languages-light.svg" alt="Most used languages"/>
   </picture>
-</div>
-
-<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AlparslanBurhan&theme=tokyonight&hide_border=true&background=00000000">
-    <img src="https://streak-stats.demolab.com?user=AlparslanBurhan&theme=default&hide_border=true" alt="GitHub Streak"/>
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AlparslanBurhan&theme=tokyo-night&hide_border=true&bg_color=00000000&color=58a6ff&line=0072ff&point=00c6ff&area=true&area_color=0072ff">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlparslanBurhan&theme=minimal&hide_border=true&color=0072ff&line=0072ff&point=00c6ff&area=true&area_color=0072ff" alt="Contribution Graph" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <img width="100%" src="assets/activity-light.svg" alt="Contribution activity"/>
   </picture>
 </div>
 
@@ -87,47 +71,18 @@
 <!-- ======================= FEATURED PROJECTS ======================= -->
 ## ⭐ Featured Projects
 
-
-
-<div align="center">
-  <a href="https://github.com/AlparslanBurhan/Sonar-EQ-Changer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sonar-EQ-Changer&theme=default&hide_border=true" alt="Sonar-EQ-Changer"/>
-    </picture>
-  </a>
-  <a href="https://github.com/AlparslanBurhan/EFT-Loot-Tracker">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=EFT-Loot-Tracker&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=EFT-Loot-Tracker&theme=default&hide_border=true" alt="EFT-Loot-Tracker"/>
-    </picture>
-  </a>
-  <a href="https://github.com/AlparslanBurhan/Smart-Warehouse-System">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Smart-Warehouse-System&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Smart-Warehouse-System&theme=default&hide_border=true" alt="Smart-Warehouse-System"/>
-    </picture>
-  </a>
-  <a href="https://github.com/AlparslanBurhan/small">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=small&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=small&theme=default&hide_border=true" alt="small"/>
-    </picture>
-  </a>
-  <a href="https://github.com/AlparslanBurhan/Sword_of_Revenge">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sword_of_Revenge&theme=tokyonight&hide_border=true&bg_color=00000000">
-      <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=AlparslanBurhan&repo=Sword_of_Revenge&theme=default&hide_border=true" alt="Sword_of_Revenge"/>
-    </picture>
-  </a>
-</div>
+<!-- PROJECTS:START -->
+<!-- PROJECTS:END -->
 
 <br/>
 
 <!-- ======================= FOOTER ======================= -->
 <div align="center">
 
-  ### 💬 *"Code is like humor. When you have to explain it, it's bad."*
+### 💬 *"Code is like humor. When you have to explain it, it's bad."*
 
-  <img src="assets/footer.svg" width="100%" alt="footer"/>
+<sub>Every card above is generated by <a href="scripts/generate.mjs">a dependency-free script</a> in GitHub Actions and committed as a static SVG — this README calls no third-party service at page load.</sub>
+
+<img src="assets/footer.svg" width="100%" alt=""/>
+
 </div>

@@ -4,6 +4,7 @@
     .w2 { animation: driftR 9s linear infinite; }
     @keyframes drift  { from { transform: translateX(0); } to { transform: translateX(-600px); } }
     @keyframes driftR { from { transform: translateX(-600px); } to { transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) { .w1, .w2 { animation: none; } }
   </style>
 
   <defs>
