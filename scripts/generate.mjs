@@ -55,12 +55,13 @@ const fmt = (n) => n >= 1000
 
 /** Segoe UI için yaklaşık metin genişliği. Piksel-mükemmel değil, sarma için yeterli. */
 function textWidth(s, size, weight = 400) {
-  const k = weight >= 600 ? 0.556 : 0.532;
+  const k = weight >= 600 ? 0.60 : 0.578;
   let units = 0;
   for (const ch of String(s)) {
     const c = ch.codePointAt(0);
     if (c > 0x2100) units += 1.35;                    // emoji / sembol
-    else if (/[A-Z0-9@#%&]/.test(ch)) units += 1.12;
+    else if (c >= 0x2010 && c <= 0x2100) units += 1.5; // — – … ‹ › gibi genel noktalama
+    else if (/[A-Z0-9@#%&]/.test(ch)) units += 1.20;
     else if (/[iljt.,:;'!|]/.test(ch)) units += 0.46;
     else if (ch === ' ') units += 0.5;
     else units += 1;
@@ -317,7 +318,15 @@ function statsCard(t, key, d) {
   const cy = 118;
   const r = 52;
   const C = 2 * Math.PI * r;
-  const ratio = s.longest > 0 ? Math.min(s.current / s.longest, 1) : 0;
+  // Güncel seri 0 iken bomboş bir halka kart bozukmuş gibi görünüyordu.
+  // O durumda başlık "en uzun seri"ye döner; iki durumda da veri olduğu gibi verilir.
+  const showLongest = s.current === 0 && s.longest > 0;
+  const headline = showLongest ? s.longest : s.current;
+  const ringLabel = showLongest ? 'LONGEST STREAK' : 'CURRENT STREAK';
+  const subLabel = showLongest
+    ? 'Current: ' + s.current + (s.current === 1 ? ' day' : ' days')
+    : 'Longest: ' + s.longest + (s.longest === 1 ? ' day' : ' days');
+  const ratio = showLongest ? 1 : (s.longest > 0 ? Math.min(s.current / s.longest, 1) : 0);
   const offset = (C * (1 - ratio)).toFixed(1);
 
   body += `
@@ -328,10 +337,10 @@ function statsCard(t, key, d) {
           stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${offset}" transform="rotate(-90 ${cx} ${cy})">
     <animate attributeName="stroke-dashoffset" from="${C.toFixed(1)}" to="${offset}" dur="1.1s" begin=".3s" fill="freeze"/>
   </circle>
-  <text class="f" x="${cx}" y="${cy - r - 16}" text-anchor="middle" font-size="11.5" font-weight="600" fill="${t.accent}" letter-spacing="1.2">CURRENT STREAK</text>
-  <text class="f" x="${cx}" y="${cy + 4}" text-anchor="middle" font-size="34" font-weight="700" fill="${t.title}">${s.current}</text>
-  <text class="f" x="${cx}" y="${cy + 24}" text-anchor="middle" font-size="10.5" font-weight="600" fill="${t.muted}" letter-spacing="1.2">DAYS</text>
-  <text class="f" x="${cx}" y="${cy + r + 28}" text-anchor="middle" font-size="12" font-weight="600" fill="${t.muted}">Longest: ${s.longest} days</text>
+  <text class="f" x="${cx}" y="${cy - r - 16}" text-anchor="middle" font-size="11.5" font-weight="600" fill="${t.accent}" letter-spacing="1.2">${ringLabel}</text>
+  <text class="f" x="${cx}" y="${cy + 4}" text-anchor="middle" font-size="34" font-weight="700" fill="${t.title}">${headline}</text>
+  <text class="f" x="${cx}" y="${cy + 24}" text-anchor="middle" font-size="10.5" font-weight="600" fill="${t.muted}" letter-spacing="1.2">${headline === 1 ? 'DAY' : 'DAYS'}</text>
+  <text class="f" x="${cx}" y="${cy + r + 28}" text-anchor="middle" font-size="12" font-weight="600" fill="${t.muted}">${subLabel}</text>
 </g>`;
 
   return shell(W, H, t, key, 'Overview', body);
@@ -439,7 +448,7 @@ function repoCard(t, key, r) {
     name += '…';
   }
 
-  const descLines = wrap(r.description || 'No description provided.', 12.5, W - 48, 2)
+  const descLines = wrap(r.description || 'No description provided.', 12.5, W - 56, 2)
     .map((l, i) => `<text class="f" x="24" y="${88 + i * 19}" font-size="12.5" fill="${t.muted}">${esc(l)}</text>`)
     .join('\n');
 
