@@ -417,7 +417,7 @@ function activityCard(t, key, weeks, total) {
     .join('');
 
   const legend = `<text class="f" x="${x0}" y="${legY}" font-size="11.5" fill="${t.muted}">${total} contributions in the last year</text>
-<text class="f" x="${x0 + gridW - 98}" y="${legY}" font-size="11" fill="${t.muted}">Less</text>
+<text class="f" x="${x0 + gridW - 108}" y="${legY}" font-size="11" fill="${t.muted}">Less</text>
 ${swatches}
 <text class="f" x="${x0 + gridW + 4}" y="${legY}" font-size="11" fill="${t.muted}">More</text>`;
 
@@ -533,7 +533,7 @@ async function cacheExternal(files) {
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const body = await res.text();
-      if (!body.trim().startsWith('<svg') || body.length < 400) throw new Error('geçersiz SVG gövdesi');
+      if (!/<svg[\s>]/i.test(body) || body.length < 300) throw new Error('geçersiz SVG gövdesi');
       if (/Something went wrong|Maximum retries/i.test(body)) throw new Error('servis hata SVG döndürdü');
       files.set(rel, body);
       console.log('  ✓ önbelleklendi: ' + rel + ' (' + body.length + 'b)');
