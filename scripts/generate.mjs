@@ -16,7 +16,17 @@ import { writeFile, readFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 
 const USER = process.env.PROFILE_USER || 'AlparslanBurhan';
-const TOKEN = process.env.GH_TOKEN;
+/**
+ * GH_TOKEN          : tercih edilen token (PROFILE_TOKEN secret'ı).
+ *                     Private repolardaki katkıları da görür.
+ * GH_TOKEN_FALLBACK : Actions'ın varsayılan GITHUB_TOKEN'ı. Sadece public veri.
+ *
+ * Tercih edilen token reddedilirse (süresi dolmuş, iptal edilmiş, yetkisi
+ * yetersiz) otomatik olarak fallback'e düşülür. Böylece PAT bir gün ölse bile
+ * üretim durmaz; kartlar yayında kalır, yalnızca sayılar public'e sınırlanır.
+ */
+const FALLBACK_TOKEN = process.env.GH_TOKEN_FALLBACK || '';
+let TOKEN = process.env.GH_TOKEN || FALLBACK_TOKEN;
 const ROOT = process.cwd();
 const FEATURED_COUNT = 6;
 const HIDE_LANGS = new Set(['mathematica', 'batchfile', 'shell', 'makefile', 'dockerfile']);
@@ -121,6 +131,13 @@ async function gql(query, variables) {
     } catch (err) {
       lastErr = err;
       console.warn('  GraphQL denemesi ' + attempt + ' başarısız: ' + err.message);
+      const authFailed = /HTTP 401|HTTP 403|Bad credentials|requires authentication/i.test(err.message);
+      if (authFailed && FALLBACK_TOKEN && TOKEN !== FALLBACK_TOKEN) {
+        console.warn('  ! Tercih edilen token reddedildi — GITHUB_TOKEN'a düşülüyor.');
+        console.warn('    Sayılar yalnızca public katkıları kapsayacak.');
+        TOKEN = FALLBACK_TOKEN;
+        continue;
+      }
       if (attempt < 4) await new Promise((r) => setTimeout(r, attempt * 2500));
     }
   }

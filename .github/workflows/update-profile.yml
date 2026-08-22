@@ -32,9 +32,12 @@ jobs:
 
       - name: Generate SVG cards
         env:
-          # PROFILE_TOKEN yalnızca varsayılan GITHUB_TOKEN yetmezse gerekir.
-          # Boşsa otomatik olarak GITHUB_TOKEN'a düşer.
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          # PROFILE_TOKEN varsa private repolardaki katkılar da sayılır ve
+          # rakamlar GitHub'ın profil grafiğiyle birebir örtüşür.
+          # Yoksa ya da reddedilirse script GITHUB_TOKEN'a düşer; kartlar
+          # yayında kalır, sayılar public katkılarla sınırlanır.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GH_TOKEN_FALLBACK: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: ${{ github.repository_owner }}
         run: node scripts/generate.mjs
 
