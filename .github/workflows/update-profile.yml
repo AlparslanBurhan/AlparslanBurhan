@@ -6,7 +6,7 @@ on:
     - cron: '17 3 * * *'
   workflow_dispatch:
   push:
-    branches: [main, rebuild-profile]
+    branches: [main]
     paths:
       - 'scripts/**'
       - '.github/workflows/update-profile.yml'
