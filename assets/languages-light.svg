@@ -20,7 +20,7 @@
 <defs><clipPath id="lgcll"><rect x="24" y="58" width="852" height="14" rx="7"/></clipPath></defs>
 <rect x="24" y="58" width="852" height="14" rx="7" fill="#eaeef2"/>
 <g clip-path="url(#lgcll)">
-<rect x="24.0" y="58" width="703.0" height="14" fill="#178600">
+<rect x="24.0" y="58" width="703.0" height="14" fill="#7355dd">
     <animate attributeName="width" from="0" to="703.0" dur=".7s" begin="0.15s" fill="freeze"/>
   </rect>
 <rect x="727.0" y="58" width="87.8" height="14" fill="#3178c6">
@@ -40,7 +40,7 @@
   </rect>
 </g>
 <g class="in" style="animation-delay:0.30s">
-  <circle cx="30" cy="110" r="6" fill="#178600"/>
+  <circle cx="30" cy="110" r="6" fill="#7355dd"/>
   <text class="f" x="44" y="114" font-size="13.5" font-weight="600" fill="#32383f">C#</text>
   <text class="f" x="71.4" y="114" font-size="12.5" fill="#59636e">82.5%</text>
 </g>
