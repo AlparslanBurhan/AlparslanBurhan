@@ -18,7 +18,7 @@
 <rect x=".5" y=".5" width="899" height="213" rx="12" fill="none" stroke="#d1d9e0"/>
 <text class="f in" x="24" y="34" font-size="13.5" font-weight="600" fill="#59636e" letter-spacing="1.7">OVERVIEW</text>
 <g class="in" style="animation-delay:0.10s">
-  <text class="f" x="24" y="92" font-size="29" font-weight="700" fill="#1f2328">230</text>
+  <text class="f" x="24" y="92" font-size="29" font-weight="700" fill="#1f2328">246</text>
   <text class="f" x="24" y="112" font-size="11.5" font-weight="600" fill="#59636e" letter-spacing=".5">CONTRIBUTIONS</text>
 </g>
 <g class="in" style="animation-delay:0.15s">
