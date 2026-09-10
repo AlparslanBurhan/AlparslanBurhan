@@ -53,12 +53,12 @@
 <g class="in" style="animation-delay:.45s">
   <circle cx="762" cy="118" r="52" fill="none" stroke="#21262d" stroke-width="9"/>
   <circle cx="762" cy="118" r="52" fill="none" stroke="url(#accsd)" stroke-width="9" stroke-linecap="round"
-          stroke-dasharray="326.7" stroke-dashoffset="81.7" transform="rotate(-90 762 118)">
-    <animate attributeName="stroke-dashoffset" from="326.7" to="81.7" dur="1.1s" begin=".3s" fill="freeze"/>
+          stroke-dasharray="326.7" stroke-dashoffset="0.0" transform="rotate(-90 762 118)">
+    <animate attributeName="stroke-dashoffset" from="326.7" to="0.0" dur="1.1s" begin=".3s" fill="freeze"/>
   </circle>
-  <text class="f" x="762" y="50" text-anchor="middle" font-size="11.5" font-weight="600" fill="#58a6ff" letter-spacing="1.2">CURRENT STREAK</text>
-  <text class="f" x="762" y="122" text-anchor="middle" font-size="34" font-weight="700" fill="#e6edf3">3</text>
+  <text class="f" x="762" y="50" text-anchor="middle" font-size="11.5" font-weight="600" fill="#58a6ff" letter-spacing="1.2">LONGEST STREAK</text>
+  <text class="f" x="762" y="122" text-anchor="middle" font-size="34" font-weight="700" fill="#e6edf3">4</text>
   <text class="f" x="762" y="142" text-anchor="middle" font-size="10.5" font-weight="600" fill="#8b949e" letter-spacing="1.2">DAYS</text>
-  <text class="f" x="762" y="198" text-anchor="middle" font-size="12" font-weight="600" fill="#8b949e">Longest: 4 days</text>
+  <text class="f" x="762" y="198" text-anchor="middle" font-size="12" font-weight="600" fill="#8b949e">Current: 0 days</text>
 </g>
 </svg>
