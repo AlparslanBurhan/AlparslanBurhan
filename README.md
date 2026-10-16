@@ -23,7 +23,7 @@
 - 🎮 I like making tools for gamers and power users — [Sonar-EQ-Changer](https://github.com/AlparslanBurhan/Sonar-EQ-Changer), [EFT-Loot-Tracker](https://github.com/AlparslanBurhan/EFT-Loot-Tracker), [FanPulse](https://github.com/AlparslanBurhan/FanPulse)
 - 📡 [LanBeam](https://github.com/AlparslanBurhan/LanBeam) — fast, encrypted LAN file transfer for Windows and macOS
 - 🌱 Into **C++ systems programming**, low-latency streaming and device-level Windows APIs
-- 📫 Reach me at **alparslanburhan@gmail.com**
+
 
 <br/>
 
